@@ -33,10 +33,10 @@ export default function Footer() {
                         <div className="flex items-center justify-center gap-2 text-white/60 text-sm">
                             <Mail className="w-4 h-4" />
                             <a
-                                href="mailto:kampanya@karlikkoyu.org"
+                                href="mailto:tanerprlk@gmail.com"
                                 className="hover:text-[#f59e0b] transition-colors"
                             >
-                                kampanya@karlikkoyu.org
+                                tanerprlk@gmail.com
                             </a>
                         </div>
                     </div>
@@ -44,9 +44,9 @@ export default function Footer() {
                     {/* Right */}
                     <div className="text-right">
                         <p className="text-white/40 text-sm flex items-center justify-end gap-1">
-                            Yapıldı
+                            Taner Parlak Tarafından
                             <Heart className="w-3 h-3 text-red-400" />
-                            ile
+                            ile yapıldı.
                         </p>
                         <p className="text-white/30 text-xs mt-1">
                             © {new Date().getFullYear()} Karlık Köyü Yol Kampanyası. Tüm hakları saklıdır.

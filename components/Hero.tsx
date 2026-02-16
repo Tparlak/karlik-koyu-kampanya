@@ -26,7 +26,15 @@ export default function Hero() {
     return (
         <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
             {/* Background gradient */}
-            <div className="absolute inset-0 bg-gradient-to-br from-[#0f1b3d] via-[#1e3a8a] to-[#0f1b3d]" />
+            {/* Background Image */}
+            <div className="absolute inset-0">
+                <img
+                    src="/Karlik.jpg"
+                    alt="Karlık Köyü"
+                    className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-black/60" /> {/* Dark overlay for text readability */}
+            </div>
 
             {/* Animated particles */}
             <div className="absolute inset-0 overflow-hidden">
@@ -60,9 +68,9 @@ export default function Hero() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6 }}
-                    className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white/80 text-xs mb-8"
+                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white/90 text-sm mb-8"
                 >
-                    <span className="w-1.5 h-1.5 bg-[#f59e0b] rounded-full animate-pulse" />
+                    <span className="w-2 h-2 bg-[#1ef50b] rounded-full animate-pulse" />
                     Dijital İmza Kampanyası Aktif
                 </motion.div>
 
